@@ -1,0 +1,105 @@
+body {
+  background-color: #b989b7;
+  font-size: 120%;
+}
+  
+.foto {
+  width: 16%;
+  border-radius: 60px 70px 40px 140px;
+  margin-top: 0.6%;
+  margin-left: 40%;
+  box-shadow: 10px 10px 10px 10px rgba(50, 50, 50, 0.3);
+} 
+
+.foto:hover {
+  transform: scale(1.1);
+}
+
+.gitHub {
+  float: right;
+  width: 6%;
+  
+}
+
+p {
+  visibility: hidden;
+  color: white;
+  text-align: justify;
+}
+  
+h1 {
+  font-size: 42px;
+  color: #64d4cf;
+  font-family:'Times New Roman', Times, serif;
+}
+
+h2 {
+  font-size: 42px;
+  color: #64d4cf;
+  font-family:'Times New Roman', Times, serif;
+} 
+
+h3 {
+  font-size: 42px;
+  color: #64d4cf;
+  font-family:'Times New Roman', Times, serif;
+}
+  
+.geral {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.card {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  background-color: #af59aeb9;
+  margin: 20px;
+  height: 60vh;
+  width: 26vw;
+  transition: all 0.4s ease-out;
+}
+  
+.card:hover {
+  transform: translateY(-8px);
+  cursor: pointer;
+}
+  
+
+@media screen and (max-width: 1024px){
+  body {
+  width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px){
+    body {
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  h1, h2, h3 {
+    font-size: 200%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  h1, h2, h3 {
+    font-size: 150%;
+  }
+}
+  
+@media screen and (max-width: 320px) {
+  h1, h2, h3 {
+    font-size: 100%;
+  }
+}
